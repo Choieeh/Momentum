@@ -7,6 +7,7 @@ const USER_LS =  "currentUser",
 
 function saveName(text) {
 	localStorage.setItem(USER_LS,text);
+	//localStorage.setItem(USER_LS,text);
 	//localStorage는 새로고침해도 사라지지 않는 고유 저장 신기신기
 }
 
